@@ -59,8 +59,8 @@ void FEIKEditorModule::StartupModule()
 {
     FEosIconStyle::Initialize();
     // Register a function to be called when the menu system is initialized
-    UToolMenus::RegisterStartupCallback(FSimpleMulticastDelegate::FDelegate::CreateRaw(
-        this, &FEIKEditorModule::RegisterMenuExtensions));
+    //UToolMenus::RegisterStartupCallback(FSimpleMulticastDelegate::FDelegate::CreateRaw(
+        //this, &FEIKEditorModule::RegisterMenuExtensions));
 }
 
 void FEIKEditorModule::ShutdownModule()
